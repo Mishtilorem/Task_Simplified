@@ -194,7 +194,7 @@ const Dashboard = () => {
       bg: "bg-[#be185d]",
     },
   ];
-
+console.log(data)
   const Card = ({ label, count, bg, icon }) => {
     return (
       <div className='w-full h-32 bg-white p-5 shadow-md rounded-md flex items-center justify-between'>
